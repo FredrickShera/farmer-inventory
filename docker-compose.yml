@@ -1,0 +1,7 @@
+# One-command local API:  docker compose up --build   (reads api/.env)
+services:
+  api:
+    build: ./api
+    env_file: ./api/.env
+    ports: ["8000:8000"]
+    restart: unless-stopped

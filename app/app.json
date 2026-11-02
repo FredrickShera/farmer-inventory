@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Farmer Inventory",
+    "slug": "farmer-inventory",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "farmerinventory",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "ke.coop.farmerinventory"
+    },
+    "android": {
+      "package": "ke.coop.farmerinventory",
+      "softwareKeyboardLayoutMode": "resize"
+    },
+    "plugins": [
+      "expo-secure-store"
+    ],
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    }
+  }
+}
